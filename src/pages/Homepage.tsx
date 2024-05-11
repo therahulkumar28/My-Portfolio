@@ -5,6 +5,7 @@ import Hero from "../components/Hero";
 import About from "../components/About";
 import Services from "../components/Services";
 import Skills from "../components/Skills";
+import Project from "../components/Project";
 
 const Homepage = () => {
     const [nav , setNav] = useState<boolean>(false) ;
@@ -26,6 +27,7 @@ const Homepage = () => {
             <About/>
             <Services/>
             <Skills/>
+            <Project/>
             </div>
         </div>
     </div>
