@@ -4,6 +4,7 @@ import MobileNav from "../components/MobileNav";
 import Hero from "../components/Hero";
 import About from "../components/About";
 import Services from "../components/Services";
+import Skills from "../components/Skills";
 
 const Homepage = () => {
     const [nav , setNav] = useState<boolean>(false) ;
@@ -20,8 +21,12 @@ const Homepage = () => {
             <MobileNav nav={nav} closeNav={closeNav}/>
             <Nav openNav={openNav}/>
             <Hero/>
+            <div className=" relative z-[30] ">
+
             <About/>
             <Services/>
+            <Skills/>
+            </div>
         </div>
     </div>
   )
