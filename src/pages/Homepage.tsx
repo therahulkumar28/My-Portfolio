@@ -6,6 +6,8 @@ import About from "../components/About";
 import Services from "../components/Services";
 import Skills from "../components/Skills";
 import Project from "../components/Project";
+import Testinomial from "../components/Testinomial";
+import Blog from "../components/Blog";
 
 const Homepage = () => {
     const [nav , setNav] = useState<boolean>(false) ;
@@ -28,6 +30,8 @@ const Homepage = () => {
             <Services/>
             <Skills/>
             <Project/>
+            <Testinomial/>
+            <Blog/>
             </div>
         </div>
     </div>
