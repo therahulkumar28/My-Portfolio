@@ -8,6 +8,7 @@ import Skills from "../components/Skills";
 import Project from "../components/Project";
 import Testinomial from "../components/Testinomial";
 import Blog from "../components/Blog";
+import Footer from "../components/Footer";
 
 const Homepage = () => {
     const [nav , setNav] = useState<boolean>(false) ;
@@ -32,6 +33,7 @@ const Homepage = () => {
             <Project/>
             <Testinomial/>
             <Blog/>
+            <Footer/>
             </div>
         </div>
     </div>

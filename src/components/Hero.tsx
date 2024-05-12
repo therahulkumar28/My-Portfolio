@@ -5,7 +5,7 @@ import TextEffect from "./TextEffect"
 
 const Hero = () => {
     return (
-        <div className="h-[88vh] mt-[12vh] bg-[url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.5vbQyWdIdaK2DSQ0T1OPEwHaE8%26pid%3DApi&f=1&ipt=a0e75f607c1389299df0f8296d7f18513e64c6f84e00fa05180bbd09f302bfb6&ipo=images')] bg-cover bg-center">
+        <div className="h-[88vh] mt-[12vh] bg-[#121121] bg-cover bg-center">
             <Particle />
             <div className="w-[80%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[3rem] h-[100%] items-center"  >
                 <div>
